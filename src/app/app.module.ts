@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ToolsComponent } from './components/tools/tools.component';
 import { IconAnimationComponent } from './components/tools/icon-animation/icon-animation.component';
 import { ToolsRoutingModule } from './components/tools/tools-routing.module';
+import { DarkmodeswitchComponent } from './components/tools/darkmodeswitch/darkmodeswitch.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolsComponent,
-    IconAnimationComponent
+    IconAnimationComponent,
+    DarkmodeswitchComponent
   ],
   imports: [
     BrowserModule,
