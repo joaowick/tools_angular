@@ -1,0 +1,11 @@
+<p>
+    filho works!
+</p>
+
+<ul>
+    <li *ngFor="let f of recebePais">
+        {{f.nome}} {{f.sobreNome}}
+    </li>
+</ul>
+
+<input type="button" value="Emitir resposta" (click)="feedback();">
